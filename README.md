@@ -78,8 +78,8 @@ The Basic Insight webpage has various types of charts to visuvalize the data fro
 
 
 <div style="display: flex;margin-bottom: 20px;">
-    <img src="src/output_img/basic_overall.png" alt="Basic Insight1" style="width: 50%; margin-right: 10px;" />
-    <img src="src/output_img/basic_top.png" alt="Basic Insight2" style="width: 50%; margin-left: 10px;" />
+    <img src="src/output_img/basic_overall.png" alt="Basic Insight1" style="width: 45%; margin-right: 10px;" />
+    <img src="src/output_img/basic_top.png" alt="Basic Insight2" style="width: 45%; margin-left: 10px;" />
 </div>
 
 ![Basic Insight3!](/src/output_img/basic_state.png "Basic Insight3")
@@ -91,8 +91,8 @@ The Search webpage has TOP 10 data of the each types based on the year and quate
 
 
 <div style="display: flex;margin-bottom: 20px;">
-    <img src="src/output_img/search.png" alt="Basic Insight1" style="width: 50%; margin-right: 10px;" />
-    <img src="src/output_img/search_trans.png" alt="Basic Insight2" style="width: 50%; margin-left: 10px;" />
+    <img src="src/output_img/search.png" alt="Basic Insight1" style="width: 45%; margin-right: 10px;" />
+    <img src="src/output_img/search_trans.png" alt="Basic Insight2" style="width: 45%; margin-left: 10px;" />
 </div>
 
 

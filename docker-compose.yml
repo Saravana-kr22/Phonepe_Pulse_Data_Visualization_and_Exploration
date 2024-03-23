@@ -3,7 +3,7 @@ version: '3.3'
 services:
   streamlit-app:
     image: python:3.10
-    command: bash -c " cd sar/ && pip install -r requirement.txt  && streamlit run app.py -- --use_mysql 1"
+    command: bash -c " cd sar/ && pip install -r requirements.txt  && streamlit run app.py -- --use_mysql 1"
     volumes:
       - ../Phonepe_Pulse_Data_Visualization_and_Exploration:/sar
     ports:
