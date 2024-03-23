@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+  streamlit-app:
+    image: python:3.10
+    command: bash -c " cd sar/ && pip install -r requirement.txt  && streamlit run app.py -- --use_mysql 1"
+    volumes:
+      - ../Phonepe_Pulse_Data_Visualization_and_Exploration:/sar
+    ports:
+      - "8501:8501"
+    depends_on:
+      - mysqldb
+
+  mysqldb:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: phonepe
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
